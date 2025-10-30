@@ -13,7 +13,7 @@ spec:
     ipPools:
       - name: default-ipv4-ippool
         blockSize: 26
-        cidr: 10.100.0.0/16
+        cidr: 10.5.0.0/24
         encapsulation: VXLANCrossSubnet
         natOutgoing: Enabled
         nodeSelector: all()
