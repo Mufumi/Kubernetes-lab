@@ -10,7 +10,7 @@ spec:
     ipPools:
       - name: default-ipv4-ippool
         blockSize: 26
-        cidr: 10.5.0.0/16
+        cidr: 10.5.0.0/16 #Replace with pod-network-cidr in initialized master node
         encapsulation: VXLANCrossSubnet
         natOutgoing: Enabled
         nodeSelector: all()
